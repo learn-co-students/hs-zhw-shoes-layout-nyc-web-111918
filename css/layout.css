@@ -20,8 +20,28 @@
 
 .clear {
   clear: both;
+  padding-top: 20px;
 }
 
 /* Posititoning Classes */
 
+.deals {
+  column-count: 3;
+}
 
+
+.milk_text{
+  padding-top: 10px;
+}
+
+#summer {
+  float: left;
+  width: 66%;
+  padding-right: 1%;
+}
+
+#archive {
+  width: 33%;
+  float: right;
+  display:inline;
+}
