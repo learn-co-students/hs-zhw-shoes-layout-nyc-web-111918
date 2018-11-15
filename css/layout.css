@@ -9,7 +9,7 @@
   -moz-box-sizing: border-box;
 }
 
-.clearfix:after {
+.clear:after {
   content: ".";
   display: block;
   clear: both;
@@ -20,8 +20,24 @@
 
 .clear {
   clear: both;
+  margin-bottom: 2%;
 }
 
 /* Posititoning Classes */
 
+.col-1 {
+  width: 32%;
+}
 
+.col-2 {
+   width: 66%;
+}
+
+ [class*="col-"] {
+    float: left;
+    margin-left: 2%;
+  }
+
+  [class*="col-"]:first-child {
+    margin-left: 0;
+  }
